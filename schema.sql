@@ -26,7 +26,7 @@ role_id INT ,
 manager_id INT,
 primary key (ID),
 FOREIGN KEY (manager_id) REFERENCES employee(id),
-FOREIGN KEY (role_id) REFERENCES role(id),
+FOREIGN KEY (role_id) REFERENCES role(id)
 );
 
 
